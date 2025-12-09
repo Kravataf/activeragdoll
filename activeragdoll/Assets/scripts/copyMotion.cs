@@ -3,6 +3,7 @@ using UnityEngine;
 public class copyMotion : MonoBehaviour
 {
     public Transform targetLimb;
+    public bool mirror;
     ConfigurableJoint cj;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,6 +15,12 @@ public class copyMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cj.targetRotation = targetLimb.rotation;
+        if (!mirror)
+        {
+            cj.targetRotation = targetLimb.rotation;
+        } else
+        {
+            cj.targetRotation = Quaternion.Inverse(targetLimb.rotation);
+        }
     }
 }

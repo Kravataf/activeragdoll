@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 134681848}
   - component: {fileID: 134681847}
   - component: {fileID: 134681849}
+  - component: {fileID: 134681850}
   m_Layer: 6
   m_Name: rightArm
   m_TagString: Untagged
@@ -378,6 +379,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &134681850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134681842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 641233142}
 --- !u!1 &158099096
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +407,7 @@ GameObject:
   - component: {fileID: 158099102}
   - component: {fileID: 158099101}
   - component: {fileID: 158099103}
+  - component: {fileID: 158099104}
   m_Layer: 6
   m_Name: leftShoulder
   m_TagString: Untagged
@@ -635,6 +650,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &158099104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158099096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 1506028698}
 --- !u!1 &256423428
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +678,7 @@ GameObject:
   - component: {fileID: 256423434}
   - component: {fileID: 256423433}
   - component: {fileID: 256423435}
+  - component: {fileID: 256423436}
   m_Layer: 6
   m_Name: leftArm
   m_TagString: Untagged
@@ -894,6 +923,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &256423436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256423428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 401019387}
 --- !u!1 &282406840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,6 +1044,7 @@ GameObject:
   - component: {fileID: 291961884}
   - component: {fileID: 291961883}
   - component: {fileID: 291961885}
+  - component: {fileID: 291961886}
   m_Layer: 6
   m_Name: leftLeg
   m_TagString: Untagged
@@ -1246,6 +1289,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &291961886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291961878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 995466254}
 --- !u!1 &303189619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1317,7 @@ GameObject:
   - component: {fileID: 303189625}
   - component: {fileID: 303189624}
   - component: {fileID: 303189626}
+  - component: {fileID: 303189627}
   m_Layer: 6
   m_Name: torso
   m_TagString: Untagged
@@ -1503,6 +1560,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &303189627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303189619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 282406847}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +1816,7 @@ GameObject:
   - component: {fileID: 351954943}
   - component: {fileID: 351954942}
   - component: {fileID: 351954944}
+  - component: {fileID: 351954945}
   m_Layer: 6
   m_Name: rightThigh
   m_TagString: Untagged
@@ -1988,6 +2059,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &351954945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351954937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 2050778830}
 --- !u!1 &381360841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,6 +2396,7 @@ GameObject:
   - component: {fileID: 435712971}
   - component: {fileID: 435712970}
   - component: {fileID: 435712972}
+  - component: {fileID: 435712973}
   m_Layer: 6
   m_Name: stomach
   m_TagString: Untagged
@@ -2554,6 +2639,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &435712973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435712965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 381360848}
 --- !u!1 &599112756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +2667,7 @@ GameObject:
   - component: {fileID: 599112762}
   - component: {fileID: 599112761}
   - component: {fileID: 599112763}
+  - component: {fileID: 599112764}
   m_Layer: 6
   m_Name: leftFoot
   m_TagString: Untagged
@@ -2811,6 +2910,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &599112764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599112756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 665112102}
 --- !u!1 &613311683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,6 +2938,7 @@ GameObject:
   - component: {fileID: 613311689}
   - component: {fileID: 613311688}
   - component: {fileID: 613311690}
+  - component: {fileID: 613311691}
   m_Layer: 6
   m_Name: rightFoot
   m_TagString: Untagged
@@ -3068,6 +3181,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &613311691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613311683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 1825199246}
 --- !u!1 &641233135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,6 +3619,7 @@ GameObject:
   - component: {fileID: 851873700}
   - component: {fileID: 851873699}
   - component: {fileID: 851873701}
+  - component: {fileID: 851873702}
   m_Layer: 6
   m_Name: leftThigh
   m_TagString: Untagged
@@ -3735,6 +3862,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &851873702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851873694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 336745007}
 --- !u!1 &995466247
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,6 +4232,7 @@ GameObject:
   - component: {fileID: 1347436480}
   - component: {fileID: 1347436479}
   - component: {fileID: 1347436481}
+  - component: {fileID: 1347436482}
   m_Layer: 6
   m_Name: rightLeg
   m_TagString: Untagged
@@ -4336,6 +4477,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &1347436482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347436474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 1839102686}
 --- !u!1 &1413777088
 GameObject:
   m_ObjectHideFlags: 0
@@ -4351,6 +4505,7 @@ GameObject:
   - component: {fileID: 1413777094}
   - component: {fileID: 1413777093}
   - component: {fileID: 1413777095}
+  - component: {fileID: 1413777096}
   m_Layer: 6
   m_Name: head
   m_TagString: Untagged
@@ -4593,6 +4748,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &1413777096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413777088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 2092562619}
 --- !u!1 &1431675048
 GameObject:
   m_ObjectHideFlags: 0
@@ -4609,6 +4777,7 @@ GameObject:
   - component: {fileID: 1431675053}
   - component: {fileID: 1431675056}
   - component: {fileID: 1431675055}
+  - component: {fileID: 1431675057}
   m_Layer: 6
   m_Name: hips
   m_TagString: Untagged
@@ -4867,6 +5036,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &1431675057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431675048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 1935785985}
 --- !u!1 &1506028691
 GameObject:
   m_ObjectHideFlags: 0
@@ -4973,6 +5155,7 @@ GameObject:
   - component: {fileID: 1506089240}
   - component: {fileID: 1506089239}
   - component: {fileID: 1506089241}
+  - component: {fileID: 1506089242}
   m_Layer: 6
   m_Name: rightHand
   m_TagString: Untagged
@@ -5215,6 +5398,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &1506089242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506089234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 756383669}
 --- !u!1 &1624872348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5466,6 +5662,7 @@ GameObject:
   - component: {fileID: 1854458026}
   - component: {fileID: 1854458025}
   - component: {fileID: 1854458027}
+  - component: {fileID: 1854458028}
   m_Layer: 6
   m_Name: rightShoulder
   m_TagString: Untagged
@@ -5708,6 +5905,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &1854458028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854458020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 1015818439}
 --- !u!1 &1894166078
 GameObject:
   m_ObjectHideFlags: 0
@@ -5723,6 +5933,7 @@ GameObject:
   - component: {fileID: 1894166084}
   - component: {fileID: 1894166083}
   - component: {fileID: 1894166085}
+  - component: {fileID: 1894166086}
   m_Layer: 6
   m_Name: leftHand
   m_TagString: Untagged
@@ -5965,6 +6176,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::limbCollision
   plr: {fileID: 0}
+--- !u!114 &1894166086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894166078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2048b899393b71d489fc6d7aa1e52842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::copyMotion
+  targetLimb: {fileID: 787891070}
 --- !u!1 &1935785977
 GameObject:
   m_ObjectHideFlags: 0

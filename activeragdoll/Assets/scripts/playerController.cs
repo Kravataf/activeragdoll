@@ -4,6 +4,7 @@ public class playerController : MonoBehaviour
 {
     public float speed, jumpForce;
     public Rigidbody hips;
+    public Animator animator;
     public bool isGrounded;
 
     void Start()
@@ -15,28 +16,27 @@ public class playerController : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.W))
         {
+            animator.SetBool("isWalking", true);
             hips.AddForce(transform.forward * speed);
-        }
-
-        if(Input.GetKey(KeyCode.A))
+        } else if (Input.GetKey(KeyCode.A))
         {
+            animator.SetBool("isWalking", true);
             hips.AddForce(-transform.right * speed);
-        }
-
-        if(Input.GetKey(KeyCode.S))
+        } else if (Input.GetKey(KeyCode.S))
         {
+            animator.SetBool("isWalking", true);
             hips.AddForce(-transform.forward * speed);
-        }
-
-        if(Input.GetKey(KeyCode.D))
+        } else if (Input.GetKey(KeyCode.D))
         {
+            animator.SetBool("isWalking", true);
             hips.AddForce(transform.right * speed);
-        }
-
-        if(Input.GetKey(KeyCode.Space) && isGrounded)
+        } else if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             hips.AddForce(transform.up * jumpForce);
             isGrounded = false;
+        } else
+        {
+            animator.SetBool("isWalking", false);
         }
     }
 }

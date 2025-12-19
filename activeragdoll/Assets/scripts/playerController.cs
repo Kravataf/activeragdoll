@@ -30,13 +30,14 @@ public class playerController : MonoBehaviour
         {
             animator.SetBool("isWalking", true);
             hips.AddForce(transform.right * speed);
-        } else if (Input.GetKey(KeyCode.Space) && isGrounded)
-        {
-            hips.AddForce(transform.up * jumpForce);
-            isGrounded = false;
         } else
         {
             animator.SetBool("isWalking", false);
         }
+        if (Input.GetKey(KeyCode.Space) && isGrounded)
+        {
+            hips.AddForce(transform.up * jumpForce);
+            isGrounded = false;
+        } 
     }
 }

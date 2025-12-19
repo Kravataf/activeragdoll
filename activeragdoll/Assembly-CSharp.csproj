@@ -53,6 +53,7 @@
     <Compile Include="Assets\scripts\limbCollision.cs" />
     <Compile Include="Assets\scripts\cameraControl.cs" />
     <Compile Include="Assets\scripts\copyMotion.cs" />
+    <Compile Include="Assets\scripts\grab.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
